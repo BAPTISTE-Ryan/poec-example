@@ -1,7 +1,11 @@
 package hello;
 
 public class Rectangle {
-	public int CalcArea(int width, int height){
+	
+	int width;
+	int height;
+
+	public int CalcArea(){
 		
 		int result=height*width;
 		
