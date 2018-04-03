@@ -1,13 +1,15 @@
 package hello;
 
+import java.math.BigDecimal;
+
 public class Transaction {
 	
 	//instances
 	private String transac;
-	private double amount;
+	private BigDecimal amount;
 	
 	//constructors
-		public Transaction(String transac, double amount) {
+		public Transaction(String transac, BigDecimal amount) {
 		
 		this.transac = transac;
 		this.amount = amount;
@@ -22,10 +24,10 @@ public class Transaction {
 	public void setTransac(String transac) {
 		this.transac = transac;
 	}
-	public double getAmount() {
+	public BigDecimal getAmount() {
 		return amount;
 	}
-	public void setAmount(double amount) {
+	public void setAmount(BigDecimal amount) {
 		this.amount = amount;
 	}
 	
