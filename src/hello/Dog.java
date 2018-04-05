@@ -13,7 +13,7 @@ public class Dog extends Animal {
 	@Override
 	public void makeSound() {
 		// TODO Auto-generated method stub
-		super.makeSound();
+		//super.makeSound(); ( uncommented creates a double sound , animal first dog after
 		bark();
 	}
 }

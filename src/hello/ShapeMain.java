@@ -15,8 +15,20 @@ public class ShapeMain {
 		r2.width  = 20;
 		r2.height = 30;
 		
-		System.out.println(r1.CalcArea());
-		System.out.println(r2.CalcArea());
+		System.out.println("r1\t"+r1.calcArea());
+		System.out.println("r2\t"+r2.calcArea());
+		
+		Circle c = new Circle();
+		
+		c.r=4;
+		System.out.println("circle\t"+c.calcArea());
+		
+		Object[] tab0 = {r1,c};
+		Shape[] tab = {r1,c};
+		for (int i = 0; i < tab.length; i++) {
+			Shape o = tab[i];
+			System.out.println(o.calcArea());
+		}
 		
 	}         
 

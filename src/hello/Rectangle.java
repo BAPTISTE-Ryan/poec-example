@@ -1,11 +1,11 @@
 package hello;
 
-public class Rectangle {
+public class Rectangle implements Shape {
 	
 	int width;
 	int height;
 
-	public int CalcArea(){
+	public double calcArea(){
 		
 		int result=height*width;
 		

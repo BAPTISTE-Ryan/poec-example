@@ -1,6 +1,7 @@
 package hello;
 
-public class Animal {
+//abstract blocks the instanciating of a new class
+abstract class Animal {
 
 	protected String name;
 	protected int age;
@@ -16,9 +17,11 @@ public class Animal {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
+	/*
 	public void makeSound() {
 		
 		System.out.println("...");
 	}
+	*/
+	abstract void makeSound() ; // forces the child classes to have an implimentation of makesound, a body in the child classes
 }
