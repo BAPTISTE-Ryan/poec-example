@@ -9,11 +9,12 @@ public class Commande {
 	public Commande(int nbMaxDarticlesDansLepanier) {
 		this.commande= new Article[nbMaxDarticlesDansLepanier];
 	}
-	
+	/*
 	//getters setters
 	public Article[] getCommande() {
 		return commande;
 	}
+	*/
 
 
 	public void setCommande(Article[] commande) {
@@ -23,11 +24,15 @@ public class Commande {
 	
 	
 	
-	
 
 	// add method
+	/**
+	 * Ajoute un article a la commande
+	 * @param a article a rajouter a la commande
+	 * @throws NullPoijnterException si article est null
+	 */
 	public void  add(Article a) {
-		 	
+		 	if (a==null) {throw new NullPointerException("the article cannnot be null");}
 		for (int j = 0; j < commande.length; j++) {
 			if(commande[j]==null) {
 				commande[j]=a;

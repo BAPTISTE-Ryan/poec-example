@@ -1,4 +1,4 @@
-package hello;
+package com.breousakt.java.advanced;
 
 public class Dog extends Animal {
 

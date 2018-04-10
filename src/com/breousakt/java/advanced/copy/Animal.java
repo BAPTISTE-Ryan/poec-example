@@ -1,4 +1,4 @@
-package hello;
+package com.breousakt.java.advanced.copy;
 
 //abstract blocks the instanciating of a new class
 abstract class Animal {

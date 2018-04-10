@@ -10,7 +10,7 @@ public class MainArticleCommande {
 		Article a1 = new Article("samsung galaxy note 9",425);
 		Article a2 = new Article("wacom intuos pro",1785);
 		Article a3 = new Article("archos tablet 7 '' ",78);
-
+		//Article a4 = null;
 		/*		
 		a1.setTitre("samsung galaxy note 9");
 		a1.setPrix(425);
@@ -22,11 +22,14 @@ public class MainArticleCommande {
 		
 		Commande c1 = new Commande(5);
 		
-		/*
+		
 		c1.add(a1);
 		c1.add(a2);
-		c1.add(a3);
-		*/
+		Article livre4 = null;
+		
+		
+		c1.add(livre4);
+		
 
 		
 		//System.out.println(c1);
@@ -113,7 +116,7 @@ public class MainArticleCommande {
 		
 		cmd1.add(cL1);	
 		cmd1.add(cL2);		
-		cmd1.add(cL3);	
+		cmd1.add(null);	
 		cmd1.total() ;
 		
 		

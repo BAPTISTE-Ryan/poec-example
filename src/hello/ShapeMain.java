@@ -7,13 +7,10 @@ public class ShapeMain {
 		/* creer une classe rectangle qui contient
 		   qui possede une methode public int
 		    CalcArea(int width, int height) */
-		Rectangle r1 = new Rectangle();
-		r1.width  = 10;
-		r1.height = 50;
-		
-		Rectangle r2 = new Rectangle();
-		r2.width  = 20;
-		r2.height = 30;
+	
+		Rectangle r1 = new Rectangle(10,50);
+		Rectangle r2 = new Rectangle(10,49);
+	
 		
 		System.out.println("r1\t"+r1.calcArea());
 		System.out.println("r2\t"+r2.calcArea());

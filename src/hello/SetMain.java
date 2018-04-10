@@ -8,10 +8,10 @@ public class SetMain {
 		// TODO Auto-generated method stub
 
 		HashSet<Shape> mySet = new HashSet<Shape>();
-		mySet.add(new Rectangle());
+		mySet.add(new Rectangle(10,20));
 		mySet.add(new Circle());
 		System.out.println("myset\tsize\t"+mySet.size());
-		Rectangle r1 = new Rectangle();
+		Rectangle r1 = new Rectangle(10,50);
 		mySet.add(r1);
 		mySet.add(r1);
 		System.out.println("myset\tsize\t"+mySet.size());

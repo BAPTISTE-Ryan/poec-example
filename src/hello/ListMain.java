@@ -3,12 +3,16 @@ package hello;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 
+import com.breousakt.java.advanced.Cat;
+import com.breousakt.java.advanced.Dog;
+
 public class ListMain {
 
 	public static void main(String[] args) {
 		
 		//ArrayList myList = new ArrayList();
 		ArrayList<Object> myList = new ArrayList<Object>();
+		
 		myList.add(new Cat());
 		myList.add(new Dog());
 		myList.add(new Cat());
@@ -19,7 +23,8 @@ public class ListMain {
 		}
 		
 		ArrayList<Shape> myList2 = new ArrayList<Shape>();
-		myList2.add(new Rectangle());
+		
+		myList2.add(new Rectangle(1,1));
 		myList2.add(new Circle());
 		Circle c1 =  new Circle();
 		myList2.add(c1);

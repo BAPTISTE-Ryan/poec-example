@@ -1,4 +1,4 @@
-package hello;
+package com.breousakt.java.advanced;
 
 public class AnimalMain {
 public static void main(String[] args) {
