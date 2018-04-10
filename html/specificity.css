@@ -1,3 +1,6 @@
+#p2{
+    color:green;
+}
 p{
 background-color: yellowgreen;
 border:10px solid green
@@ -5,6 +8,11 @@ border:10px solid green
 }
 
 p{
-color: dodgerblue
+color: dodgerblue;
+border:5px dashed purple;
+border-radius: 9px;
+}
 
+p#p2{
+    color:turquoise;
 }
