@@ -1,0 +1,184 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+font-size:15px;
+color:black
+}
+
+#asus-8-red{
+    background-color: #b00e23;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+      padding-top: 110px;
+      padding-bottom: 500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: url(img/hero_small_2x.jpg.jpg);
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y:bottom;
+      background-size: 20%;
+      /* font-size: 1.3rem; */
+    }
+
+#asus-8-red h1{
+        color:white;
+        font-size: 3rem;
+        margin: 13px 0;
+        font-weight: bold;
+        font-weight: 300em;
+      
+   }
+
+#asus-8-red a{
+    color:white;
+    text-decoration: none;
+  margin-bottom: 15px;
+  
+}
+
+#asus-8-red a:hover{
+    /*color: springgreen;*/
+    text-decoration: underline;
+}
+
+#asus-8-red-special-edition{
+    font-size: 1.1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+ 
+}
+#asus-8-red_POMME{letter-spacing: 0.05em;font-weight: 800;}
+#asus-8-red_RED{font-size: 0.5em;vertical-align: top;}
+#asus-8-red_TM{font-weight: lighter; font-size: 0.25em;vertical-align: top;font-weight: lighter}
+
+.POMME_hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 550px;
+margin-top: 25px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 70%;
+margin: 15px 0;
+    }
+    .POMME_hero__title{
+        font-weight: bold;
+        font-size: 3.5rem;
+        margin: 15px 0px;
+    }
+    .POMME_hero__tagline{
+        /* font-weight: bold; */
+        font-size: 1.5rem;
+    }
+
+    #product_zenfone_8{
+        background-image: url(img/iphonex.jpg);
+        background-size: 60%;
+    }
+    #product_zenpad{
+        /* background-color: #f5f5f5; */
+        background-image: url(img/ipad.jpg);
+    }
+
+    .menu-horiz__item{
+        text-decoration: none;
+        color: white;
+        display:block;
+        padding:15px 10px;
+        transition: color 0.5s;
+     }
+     .menu-horiz__item:hover{
+        color:rgb(199,187,187);
+        font-weight: bold;
+        /* font-size: 10px; */
+    }
+
+    .menu-horiz{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        margin :0 auto;
+        width: 1000px;
+        font-size: 15px
+    }
+.nav-primary{
+ background-color: black;
+ position: fixed;
+ width:100%;
+ opacity: 0.8;
+}
+
+
+.product_grid__item{
+ display: flex;
+    font-weight: bold;
+    font-size: 3.5rem;
+   
+   
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    padding-bottom: 300px;
+    padding-top: 50px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+
+ .product_grid__item__title {
+
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin: 15px 0px;
+} 
+
+.product_grid__item__tagline{
+    /* font-weight: bold; */
+    font-size: 1.5rem;
+}
+
+#one{
+    /* background-color: #f5f5f5; */
+    background-image: url(img/macbookpro.jpg);
+    background-size: 35%;
+    background-position-y: bottom;
+    
+}
+
+#two{
+    /* background-color: #f5f5f5; */
+    background-image: url(img/watch3.jpg);
+    background-position-y: bottom;
+    background-size: 30%;
+    background-color: #EEE
+}
+
+#three{
+    /* background-color: #f5f5f5; */
+    background-image: url(img/music.jpg);
+    color: white;
+
+}
+
+#four{
+    /* background-color: #f5f5f5; */
+    background-image: url(img/airpods.jpg);
+    background-position-y: bottom;
+    background-size: 30%;
+    background-color: #FAFAFA
+}
+
+.product_grid{
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 10px;
+ 
+
+}
